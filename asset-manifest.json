@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ShoppingCart/static/css/main.ce1a0ea7.css",
+    "main.js": "/ShoppingCart/static/js/main.b43e4c45.js",
+    "static/media/cheese.jpg": "/ShoppingCart/static/media/cheese.44bfadeae7d057072a0e.jpg",
+    "static/media/jam.jpeg": "/ShoppingCart/static/media/jam.b8b61de83fa069f2409c.jpeg",
+    "static/media/sooty.jpeg": "/ShoppingCart/static/media/sooty.9178452a9aa3063b98a9.jpeg",
+    "static/media/honey.jpeg": "/ShoppingCart/static/media/honey.74a3cdc14a521b8b9f53.jpeg",
+    "static/media/olive.jpeg": "/ShoppingCart/static/media/olive.e97de30007274787d2b7.jpeg",
+    "static/media/butter.jpeg": "/ShoppingCart/static/media/butter.bc0074f0bd63ebb8a118.jpeg",
+    "static/media/halva.jpeg": "/ShoppingCart/static/media/halva.927ac095cf55051bcbda.jpeg",
+    "static/media/circassian.jpeg": "/ShoppingCart/static/media/circassian.3c98099ca7a6268d12b0.jpeg",
+    "static/media/manyas.jpeg": "/ShoppingCart/static/media/manyas.97a0b31975f1e50bd3ff.jpeg",
+    "static/media/bursa.jpeg": "/ShoppingCart/static/media/bursa.27a3dbad6c92209392e8.jpeg",
+    "static/media/feta.jpeg": "/ShoppingCart/static/media/feta.67a433ab816b95ab563e.jpeg",
+    "static/media/goatcheese.jpeg": "/ShoppingCart/static/media/goatcheese.378315e8637c7793d779.jpeg",
+    "static/media/manyasmic.jpeg": "/ShoppingCart/static/media/manyasmic.7c69feb8f7a27bdbc971.jpeg",
+    "static/media/van.jpeg": "/ShoppingCart/static/media/van.41b9ebb80e92b10575db.jpeg",
+    "static/media/lux.jpeg": "/ShoppingCart/static/media/lux.2e4ff3491cd9d9864c0f.jpeg",
+    "static/media/braided.jpeg": "/ShoppingCart/static/media/braided.e51ace27f8c0f9943bf4.jpeg",
+    "static/media/logo.png": "/ShoppingCart/static/media/logo.b6d861ffbb92c17e2cd7.png",
+    "static/media/erzincanskin.jpeg": "/ShoppingCart/static/media/erzincanskin.fa4a1c5d010ac8669f05.jpeg",
+    "static/media/ezine.jpeg": "/ShoppingCart/static/media/ezine.deb823eb15cf293e8cfa.jpeg",
+    "static/media/erzincantulum.jpeg": "/ShoppingCart/static/media/erzincantulum.609d1e83c8cd6f9f3964.jpeg",
+    "static/media/izmir.jpeg": "/ShoppingCart/static/media/izmir.21ba78653546ccd008a8.jpeg",
+    "static/media/aged.jpeg": "/ShoppingCart/static/media/aged.f09aa103cf08cb726486.jpeg",
+    "static/media/cloth.jpeg": "/ShoppingCart/static/media/cloth.43526231e900221f3800.jpeg",
+    "static/media/kashar.jpeg": "/ShoppingCart/static/media/kashar.7089b92a8b359b09f406.jpeg",
+    "index.html": "/ShoppingCart/index.html",
+    "main.ce1a0ea7.css.map": "/ShoppingCart/static/css/main.ce1a0ea7.css.map",
+    "main.b43e4c45.js.map": "/ShoppingCart/static/js/main.b43e4c45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce1a0ea7.css",
+    "static/js/main.b43e4c45.js"
+  ]
+}
