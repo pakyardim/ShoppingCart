@@ -9,26 +9,26 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 const Header = ( {amountInCart} ) => {
   return (
     <header className="header">
-      <Link to="/">
+      <Link to="/ShoppingCart/">
         <img className="logo" src={logo} alt="logo" />
       </Link>
 
       <div className="navbar">
         <ul>
           <li>
-            <Link to="/">Homepage</Link>
+            <Link to="/ShoppingCart/">Homepage</Link>
           </li>
           <li>
-            <Link to="/shop">Shop</Link>
+            <Link to="/ShoppingCart/shop">Shop</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/ShoppingCart/about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/ShoppingCart/contact">Contact</Link>
           </li>
           <li>
-            <Link className="cartIcon" to="/cart"><FontAwesomeIcon icon={faShoppingCart} />
+            <Link className="cartIcon" to="/ShoppingCart/cart"><FontAwesomeIcon icon={faShoppingCart} />
             {amountInCart > 0 && <p>{amountInCart}</p>}
             {amountInCart >= 100 && <p>{"++"}</p>}
             </Link>

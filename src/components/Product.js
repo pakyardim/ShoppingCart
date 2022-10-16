@@ -1,6 +1,7 @@
 import React from "react";
 
 const Product = ({
+  cart,
   handleAddCart,
   kilo,
   setKilo,
@@ -37,9 +38,9 @@ const Product = ({
           <p>{description}</p>
         </div>
         <div className="product-buy">
-          <p>{price} ₺ (kg)</p>
+          <p>{price}₺ (kg)</p>
           <form onSubmit={handleSubmit}>
-            Kaç kilo verim abeme?
+            How many kilos would you like?
             <select value={kilo.value} onChange={handleChange}>
               <option value="1000">1kg</option>
               <option value="100">100gr</option>

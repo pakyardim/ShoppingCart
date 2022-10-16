@@ -24,7 +24,7 @@ const Cart = ({ cart, setCart, amountInCart, setAmountInCart }) => {
           <div className="empty-cart">
             <p>Your cart is empty</p>
             <p>Fill it up with our collection!</p>
-            <Link to="/shop">Shop</Link>
+            <Link to="/ShoppingCart/shop">Shop</Link>
           </div>
         )}
 
@@ -33,7 +33,7 @@ const Cart = ({ cart, setCart, amountInCart, setAmountInCart }) => {
             {amountInCart < 2 && <h1>My cart ({amountInCart} product)</h1>}
             {amountInCart > 1 && <h1>My cart ({amountInCart} products)</h1>}
             {cart.map((cartItem) => {
-              {totalPrice += cartItem.price}
+              {totalPrice += priceCheck(cartItem)}
               return (
                 <li key={nanoid()}>
                   <img src={cartItem.picUrl} />

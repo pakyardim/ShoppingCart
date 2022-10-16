@@ -28,18 +28,18 @@ const RouteSwitch = () => {
     }
   };
 
- 
   return (
     <BrowserRouter>
       <App amountInCart={amountInCart}>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/ShoppingCart/" element={<Homepage />} />
           {products.map((e) => (
             <Route
               key={nanoid()}
-              path={`/shop/${e.name.replaceAll(" ", "")}`}
+              path={`/ShoppingCart/shop/${e.name.replaceAll(" ", "")}`}
               element={
                 <Product
+                  cart={cart}
                   handleAddCart={handleAddCart}
                   kilo={kilo}
                   setKilo={setKilo}
@@ -53,11 +53,11 @@ const RouteSwitch = () => {
               }
             />
           ))}
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/ShoppingCart/shop" element={<Shop />} />
+          <Route path="/ShoppingCart/about" element={<About />} />
+          <Route path="/ShoppingCart/contact" element={<Contact />} />
           <Route
-            path="/cart"
+            path="/ShoppingCart/cart"
             element={
               <Cart
                 amountInCart={amountInCart}

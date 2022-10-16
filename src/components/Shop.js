@@ -10,7 +10,7 @@ const Shop = () => {
   const Card = ({ e }) => {
     return (
       <li>
-        <Link to={`/shop/${e.name.replaceAll(" ", "")}`}>
+        <Link to={`/ShoppingCart/shop/${e.name.replaceAll(" ", "")}`}>
           <div className="img-container">
             <img src={e.image} alt="e.image" />
           </div>
